@@ -1,0 +1,17 @@
+
+Búsqueda en Profundidad (DFS):
+Número de nodos del grafo: 15
+Número de aristas del grafo: 20
+Vértice origen: 1
+Vértice destino: 3
+--------------------------------
+Iteración 0
+Nodos generados: 1
+Nodos inspeccionados: -
+--------------------------------
+Iteración 1
+Nodos generados: 2, 3
+Nodos inspeccionados: 1
+--------------------------------
+Camino: 1 - 3
+Costo: 10
