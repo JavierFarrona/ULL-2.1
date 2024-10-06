@@ -1,0 +1,12 @@
+Alfabeto: [ a b ]
+Secuencia: aaaa
+No usadas: b
+4
+Alfabeto: [ 0 1 2 3 4 5 6 7 8 9 ]
+Secuencia: 6793836
+No usadas: 01245
+7
+Alfabeto: [ h o l a ]
+Secuencia: hola
+No usadas: 
+4

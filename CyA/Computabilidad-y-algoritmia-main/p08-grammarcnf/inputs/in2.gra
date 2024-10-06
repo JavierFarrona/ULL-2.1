@@ -1,0 +1,14 @@
+2
+a
+b
+3
+S
+A
+B
+S
+5
+S --> aB
+S --> bA
+S --> &
+A --> abaS
+B --> babS

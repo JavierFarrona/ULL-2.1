@@ -252,3 +252,65 @@ void Grafo::DFS(int startVertex, int endVertex, ostream &out) {
         out << "No se encontró un camino desde " << startVertex + 1 << " hasta " << endVertex + 1 << endl;
     }
 }
+
+
+/*
+void Grafo::DFS_MenorCoste(int startVertex, int endVertex, ostream &out) {
+    vector<bool> visited(nodos_, false);
+    vector<int> parent(nodos_, -1);  
+    vector<int> path; 
+    double totalCost = 0.0;
+    
+    // Usamos un vector de pares (costo, nodo)
+    vector<pair<double, int>> toExplore;
+    toExplore.push_back({0.0, startVertex});  // Empezamos con el nodo inicial
+    
+    bool found = false;
+    
+    while (!toExplore.empty()) {
+        // Ordenamos la lista de nodos a explorar por coste
+        sort(toExplore.begin(), toExplore.end());
+        int current = toExplore.front().second;  // Tomamos el nodo de menor coste
+        double currentCost = toExplore.front().first;
+        toExplore.erase(toExplore.begin());  // Eliminar de la lista
+
+        if (visited[current]) continue;  // Si ya fue visitado, saltar
+
+        visited[current] = true;
+        path.push_back(current + 1);  // Convertimos a índice basado en 1
+
+        if (current == endVertex) {  // Si llegamos al nodo destino
+            found = true;
+            totalCost = currentCost;  // Guardamos el coste total
+            break;
+        }
+
+        // Revisamos los vecinos del nodo actual
+        for (int i = 0; i < nodos_; ++i) {
+            if (matriz_[current][i] != -1 && !visited[i]) {
+                toExplore.push_back({currentCost + matriz_[current][i], i});
+                parent[i] = current;  // Guardamos el nodo padre
+            }
+        }
+    }
+    
+    if (found) {
+        // Reconstruir el camino
+        vector<int> finalPath;
+        for (int v = endVertex; v != -1; v = parent[v]) {
+            finalPath.push_back(v + 1);  // Convertir a índice basado en 1
+        }
+        reverse(finalPath.begin(), finalPath.end());
+
+        // Imprimir el camino y el coste total
+        out << "Camino encontrado: ";
+        for (size_t i = 0; i < finalPath.size(); ++i) {
+            out << finalPath[i];
+            if (i != finalPath.size() - 1) out << " - ";
+        }
+        out << "\nCosto total: " << totalCost << endl;
+    } else {
+        out << "No se encontró un camino desde " << startVertex + 1 << " hasta " << endVertex + 1 << endl;
+    }
+}
+*/

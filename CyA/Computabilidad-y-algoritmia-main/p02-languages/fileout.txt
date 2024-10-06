@@ -1,0 +1,5 @@
+{ a b c } { aa aaa aaaa abca abcaa abcaaa bbcca bbccaa bbccaaa caba cabaa cabaaa }
+{ a & } { aa aaa aaaa aaaaa aaaaaa }
+{ a b } { }
+{ 0 1 a } { a aa aaa }
+{ 0 1 a } { 00a 00aa 00aaa 01a 01aa 01aaa 0a 0aa 0aaa 10a 10aa 10aaa 11a 11aa 11aaa 1a 1aa 1aaa }

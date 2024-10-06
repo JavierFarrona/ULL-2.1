@@ -38,6 +38,9 @@ int main() {
     cin >> string;
     g.loadGraphFromFile(string);
 
+    cout << "Matriz de adyacencia: " << endl;
+    g.mostrarMatriz();
+
     cout << "Introduzca los nodos de inicio y fin: " << endl;
 
     int startVertex, endVertex; // Nodo inicial (indexado desde 0)

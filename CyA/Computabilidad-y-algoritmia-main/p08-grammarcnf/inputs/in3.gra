@@ -1,0 +1,19 @@
+2
+a
+b
+5
+S
+A
+B
+C
+D
+S
+8
+S --> Aa
+S --> B
+S --> D
+A --> aA
+A --> bA
+A --> B
+B --> b
+C --> abd
