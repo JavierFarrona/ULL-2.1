@@ -54,9 +54,8 @@ class Grafo {
     void CambiarInicio();
     void CambiarFin();
 
-    //void AmpliarNodos (Nodo*, int);
-    //void BusquedaAEstrella();
-    //void ImprimirFicheroResultados(string nombre_fichero);
+    //void BusquedaAEstrella(std::outstream& out);
+    void ImprimirFicheroResultados(string nombre_fichero);
 
 };
 

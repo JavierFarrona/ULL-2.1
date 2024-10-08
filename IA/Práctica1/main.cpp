@@ -46,7 +46,7 @@ int main() {
     int startVertex, endVertex; // Nodo inicial (indexado desde 0)
     cin >> startVertex >> endVertex;
 
-    cout << "Que busqueda desea realizar (BFS(1) o DFS(2)): " << endl;
+    cout << "Que busqueda desea realizar (BFS(1) o DFS(2) o (BFS_MODI(3)): " << endl;
 
     int search;
     cin >> search;
@@ -60,6 +60,8 @@ int main() {
     } else if (search == 2) {
         output << "\nBúsqueda en Profundidad (DFS):\n";
         g.DFS(startVertex - 1, endVertex - 1, output);
+    } else if (search == 3) {
+        g.BFS_MODI(startVertex - 1, endVertex - 1, output);
     } else {
         output << "Opción no válida" << endl;
     }

@@ -56,9 +56,7 @@ void Grafo::imprimir_laberinto() {
                 cout << "🚪";  // Entrada
             } else if (matriz_[i][j] == 4) {
                 cout << "🏁";  // Salida
-            } else if (matriz_[i][j] == 2) {
-                cout << "🚶";  // Camino recorrido
-            } 
+            }
         }
         cout << endl;  // Nueva línea al final de cada fila
     }
@@ -89,4 +87,32 @@ void Grafo::CambiarFin() {
     fin_ = {x - 1, y - 1};
     matriz_[x - 1][y - 1] = 4;
 }  
-   
+
+
+void ImprimirFicheroResultados(string nombre_fichero) {
+    ofstream archivo(nombre_fichero);
+    if (!archivo.is_open()) {
+        cout << "Error al abrir el archivo: " << nombre_fichero << endl;
+        return;
+    }
+
+    // Imprimir el laberinto con el camino encontrado
+    for (int i = 0; i < anchura_; i++) {
+        for (int j = 0; j < altura_; j++) {
+            if (matriz_[i][j] == 1) {
+                archivo << "🧱";  // Pared
+            } else if (matriz_[i][j] == 0) {
+                archivo << "⬜";  // Camino
+            } else if (matriz_[i][j] == 3) {
+                archivo << "🚪";  // Entrada
+            } else if (matriz_[i][j] == 4) {
+                archivo << "🏁";  // Salida
+            } else if (matriz_[i][j] == 2) {
+                archivo << "🚶";  // Camino recorrido
+            } 
+        }
+        archivo << endl;  // Nueva línea al final de cada fila
+    }
+
+    archivo.close();
+}
