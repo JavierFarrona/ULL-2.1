@@ -74,6 +74,7 @@ Variable::Variable(int line, std::string& text) {
   aux_string = aux_string.substr(found);
   has_value_ = false;
   if (regex_search(aux_string, match, kValue)) {
+    
     value_ = match.str(0);
     has_value_ = true;
   }
