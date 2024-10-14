@@ -211,6 +211,7 @@ void Grafo::aStar(Coordenadas inicio, Coordenadas objetivo, const std::string& N
 
     // Bucle principal del algoritmo A*
     while (!frontera.empty()) {
+        nodosInspeccionados_++;  // Incrementar el contador de nodos inspeccionados
         Nodo actual = frontera.top(); // Obtener el nodo con menor coste
         frontera.pop();
         nombreArchivo << "--------------------------------" << std::endl;
@@ -244,6 +245,7 @@ void Grafo::aStar(Coordenadas inicio, Coordenadas objetivo, const std::string& N
                 // Agregar nodo generado
                 nodosGenerados.push_back({nx, ny});
             }
+            nodosGenerados_++;  // Incrementar el contador de nodos generados
         }
 
         // Escribir en el archivo la lista de nodos generados en esta iteración
@@ -301,6 +303,7 @@ void Grafo::aStar(Coordenadas inicio, Coordenadas objetivo, const std::string& N
         // Mostrar el camino recorrido en el archivo
         while (camino) {
             nombreArchivo << "(" << camino->x << ", " << camino->y << ")";
+            nodos_camnino.push_back(camino);
             if (camino->padre) nombreArchivo << " -> ";
             camino = camino->padre;
         }
@@ -308,6 +311,7 @@ void Grafo::aStar(Coordenadas inicio, Coordenadas objetivo, const std::string& N
         nombreArchivo << "\nNo se encontró camino." << std::endl; // Mensaje si no se encuentra camino
     }
 }
+
 
 
 /**

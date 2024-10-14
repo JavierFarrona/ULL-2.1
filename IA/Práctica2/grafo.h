@@ -55,6 +55,8 @@ class Grafo {
     vector<vector<int>> matriz_;
     std::vector<std::pair<int, int>> nodosGenerados; // Para nodos generados
     std::vector<std::pair<int, int>> nodosInspeccionados; // Para nodos inspeccionados
+    int nodosGenerados_;
+    int nodosInspeccionados_;
 
   public:
 
