@@ -1,0 +1,2953 @@
+tiempo=4960 A=1111 B=0000 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=4970 A=1111 B=0001 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=4980 A=1111 B=0010 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=4990 A=1111 B=0011 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5000 A=1111 B=0100 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5010 A=1111 B=0101 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5020 A=1111 B=0110 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5030 A=1111 B=0111 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5040 A=1111 B=1000 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5050 A=1111 B=1001 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5060 A=1111 B=1010 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5070 A=1111 B=1011 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5080 A=1111 B=1100 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5090 A=1111 B=1101 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5100 A=1111 B=1110 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5110 A=1111 B=1111 c_in=1 OP=000 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5120 A=0000 B=0000 c_in=0 OP=001 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5130 A=0000 B=0001 c_in=0 OP=001 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0001
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5140 A=0000 B=0010 c_in=0 OP=001 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0010
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5150 A=0000 B=0011 c_in=0 OP=001 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0011
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5160 A=0000 B=0100 c_in=0 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0100
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5170 A=0000 B=0101 c_in=0 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0101
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5180 A=0000 B=0110 c_in=0 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0110
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5190 A=0000 B=0111 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0111
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5200 A=0000 B=1000 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1000
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5210 A=0000 B=1001 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1001
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5220 A=0000 B=1010 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1010
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5230 A=0000 B=1011 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1011
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5240 A=0000 B=1100 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1100
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5250 A=0000 B=1101 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1101
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5260 A=0000 B=1110 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1110
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5270 A=0000 B=1111 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1111
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=5280 A=0001 B=0000 c_in=0 OP=001 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=5290 A=0001 B=0001 c_in=0 OP=001 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=5300 A=0001 B=0010 c_in=0 OP=001 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=5310 A=0001 B=0011 c_in=0 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=5320 A=0001 B=0100 c_in=0 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=5330 A=0001 B=0101 c_in=0 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=5340 A=0001 B=0110 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=5350 A=0001 B=0111 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1000
+tiempo=5360 A=0001 B=1000 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1001
+tiempo=5370 A=0001 B=1001 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1010
+tiempo=5380 A=0001 B=1010 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1011
+tiempo=5390 A=0001 B=1011 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1100
+tiempo=5400 A=0001 B=1100 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1101
+tiempo=5410 A=0001 B=1101 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1110
+tiempo=5430 A=0001 B=1111 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5440 A=0010 B=0000 c_in=0 OP=001 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=5450 A=0010 B=0001 c_in=0 OP=001 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=5460 A=0010 B=0010 c_in=0 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=5470 A=0010 B=0011 c_in=0 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=5480 A=0010 B=0100 c_in=0 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=5490 A=0010 B=0101 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=5500 A=0010 B=0110 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1000
+tiempo=5510 A=0010 B=0111 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1001
+tiempo=5520 A=0010 B=1000 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1010
+tiempo=5530 A=0010 B=1001 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1011
+tiempo=5540 A=0010 B=1010 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1100
+tiempo=5550 A=0010 B=1011 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1101
+tiempo=5570 A=0010 B=1101 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1111
+tiempo=5580 A=0010 B=1110 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5590 A=0010 B=1111 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5600 A=0011 B=0000 c_in=0 OP=001 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=5610 A=0011 B=0001 c_in=0 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=5620 A=0011 B=0010 c_in=0 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=5630 A=0011 B=0011 c_in=0 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=5640 A=0011 B=0100 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=5650 A=0011 B=0101 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1000
+tiempo=5660 A=0011 B=0110 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1001
+tiempo=5670 A=0011 B=0111 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1010
+tiempo=5680 A=0011 B=1000 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1011
+tiempo=5690 A=0011 B=1001 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1100
+tiempo=5710 A=0011 B=1011 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1110
+tiempo=5720 A=0011 B=1100 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1111
+tiempo=5730 A=0011 B=1101 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5740 A=0011 B=1110 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5750 A=0011 B=1111 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5760 A=0100 B=0000 c_in=0 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=5770 A=0100 B=0001 c_in=0 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=5780 A=0100 B=0010 c_in=0 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=5790 A=0100 B=0011 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=5800 A=0100 B=0100 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1000
+tiempo=5810 A=0100 B=0101 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1001
+tiempo=5820 A=0100 B=0110 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1010
+tiempo=5830 A=0100 B=0111 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1011
+tiempo=5850 A=0100 B=1001 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1101
+tiempo=5860 A=0100 B=1010 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1110
+tiempo=5870 A=0100 B=1011 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1111
+tiempo=5880 A=0100 B=1100 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5890 A=0100 B=1101 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5900 A=0100 B=1110 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5910 A=0100 B=1111 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=5920 A=0101 B=0000 c_in=0 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=5930 A=0101 B=0001 c_in=0 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=5940 A=0101 B=0010 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=5950 A=0101 B=0011 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1000
+tiempo=5960 A=0101 B=0100 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1001
+tiempo=5970 A=0101 B=0101 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1010
+tiempo=5990 A=0101 B=0111 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1100
+tiempo=6000 A=0101 B=1000 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1101
+tiempo=6010 A=0101 B=1001 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1110
+tiempo=6020 A=0101 B=1010 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1111
+tiempo=6030 A=0101 B=1011 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6040 A=0101 B=1100 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6050 A=0101 B=1101 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6060 A=0101 B=1110 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6070 A=0101 B=1111 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6080 A=0110 B=0000 c_in=0 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=6090 A=0110 B=0001 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=6100 A=0110 B=0010 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1000
+tiempo=6110 A=0110 B=0011 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1001
+tiempo=6130 A=0110 B=0101 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1011
+tiempo=6140 A=0110 B=0110 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1100
+tiempo=6150 A=0110 B=0111 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1101
+tiempo=6160 A=0110 B=1000 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1110
+tiempo=6170 A=0110 B=1001 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1111
+tiempo=6180 A=0110 B=1010 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6190 A=0110 B=1011 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6200 A=0110 B=1100 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6210 A=0110 B=1101 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6220 A=0110 B=1110 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6230 A=0110 B=1111 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6240 A=0111 B=0000 c_in=0 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=6250 A=0111 B=0001 c_in=0 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1000
+tiempo=6270 A=0111 B=0011 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1010
+tiempo=6280 A=0111 B=0100 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1011
+tiempo=6290 A=0111 B=0101 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1100
+tiempo=6300 A=0111 B=0110 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1101
+tiempo=6310 A=0111 B=0111 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1110
+tiempo=6320 A=0111 B=1000 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1111
+tiempo=6330 A=0111 B=1001 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6340 A=0111 B=1010 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6350 A=0111 B=1011 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6360 A=0111 B=1100 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6370 A=0111 B=1101 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6380 A=0111 B=1110 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6390 A=0111 B=1111 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6410 A=1000 B=0001 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1001
+tiempo=6420 A=1000 B=0010 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1010
+tiempo=6430 A=1000 B=0011 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1011
+tiempo=6440 A=1000 B=0100 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1100
+tiempo=6450 A=1000 B=0101 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1101
+tiempo=6460 A=1000 B=0110 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1110
+tiempo=6470 A=1000 B=0111 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1111
+tiempo=6480 A=1000 B=1000 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6490 A=1000 B=1001 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6500 A=1000 B=1010 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6510 A=1000 B=1011 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6520 A=1000 B=1100 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6530 A=1000 B=1101 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6540 A=1000 B=1110 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6550 A=1000 B=1111 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6560 A=1001 B=0000 c_in=0 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=6570 A=1001 B=0001 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=6580 A=1001 B=0010 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=6590 A=1001 B=0011 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=6600 A=1001 B=0100 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=6610 A=1001 B=0101 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=6620 A=1001 B=0110 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=6630 A=1001 B=0111 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6640 A=1001 B=1000 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6650 A=1001 B=1001 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6660 A=1001 B=1010 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6670 A=1001 B=1011 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6680 A=1001 B=1100 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6690 A=1001 B=1101 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6700 A=1001 B=1110 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6710 A=1001 B=1111 c_in=0 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6720 A=1010 B=0000 c_in=0 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=6730 A=1010 B=0001 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=6740 A=1010 B=0010 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=6750 A=1010 B=0011 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=6760 A=1010 B=0100 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=6770 A=1010 B=0101 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=6780 A=1010 B=0110 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6790 A=1010 B=0111 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6800 A=1010 B=1000 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6810 A=1010 B=1001 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6820 A=1010 B=1010 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6830 A=1010 B=1011 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6840 A=1010 B=1100 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6850 A=1010 B=1101 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6860 A=1010 B=1110 c_in=0 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6870 A=1010 B=1111 c_in=0 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6880 A=1011 B=0000 c_in=0 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=6890 A=1011 B=0001 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=6900 A=1011 B=0010 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=6910 A=1011 B=0011 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=6920 A=1011 B=0100 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=6930 A=1011 B=0101 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6940 A=1011 B=0110 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6950 A=1011 B=0111 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6960 A=1011 B=1000 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6970 A=1011 B=1001 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6980 A=1011 B=1010 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=6990 A=1011 B=1011 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7000 A=1011 B=1100 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7010 A=1011 B=1101 c_in=0 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7020 A=1011 B=1110 c_in=0 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7030 A=1011 B=1111 c_in=0 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7040 A=1100 B=0000 c_in=0 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=7050 A=1100 B=0001 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=7060 A=1100 B=0010 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=7070 A=1100 B=0011 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=7080 A=1100 B=0100 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7090 A=1100 B=0101 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7100 A=1100 B=0110 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7110 A=1100 B=0111 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7120 A=1100 B=1000 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7130 A=1100 B=1001 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7140 A=1100 B=1010 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7150 A=1100 B=1011 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7160 A=1100 B=1100 c_in=0 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7170 A=1100 B=1101 c_in=0 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7180 A=1100 B=1110 c_in=0 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7190 A=1100 B=1111 c_in=0 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7200 A=1101 B=0000 c_in=0 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=7210 A=1101 B=0001 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=7220 A=1101 B=0010 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=7230 A=1101 B=0011 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7240 A=1101 B=0100 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7250 A=1101 B=0101 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7260 A=1101 B=0110 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7270 A=1101 B=0111 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7280 A=1101 B=1000 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7290 A=1101 B=1001 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7300 A=1101 B=1010 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7310 A=1101 B=1011 c_in=0 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7320 A=1101 B=1100 c_in=0 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7330 A=1101 B=1101 c_in=0 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7340 A=1101 B=1110 c_in=0 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7350 A=1101 B=1111 c_in=0 OP=001 R=1100, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7360 A=1110 B=0000 c_in=0 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=7370 A=1110 B=0001 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=7380 A=1110 B=0010 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7390 A=1110 B=0011 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7400 A=1110 B=0100 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7410 A=1110 B=0101 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7420 A=1110 B=0110 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7430 A=1110 B=0111 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7440 A=1110 B=1000 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7450 A=1110 B=1001 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7460 A=1110 B=1010 c_in=0 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7470 A=1110 B=1011 c_in=0 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7480 A=1110 B=1100 c_in=0 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7490 A=1110 B=1101 c_in=0 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7500 A=1110 B=1110 c_in=0 OP=001 R=1100, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7510 A=1110 B=1111 c_in=0 OP=001 R=1101, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7520 A=1111 B=0000 c_in=0 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=7530 A=1111 B=0001 c_in=0 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7540 A=1111 B=0010 c_in=0 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7550 A=1111 B=0011 c_in=0 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7560 A=1111 B=0100 c_in=0 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7570 A=1111 B=0101 c_in=0 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7580 A=1111 B=0110 c_in=0 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7590 A=1111 B=0111 c_in=0 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7600 A=1111 B=1000 c_in=0 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7610 A=1111 B=1001 c_in=0 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7620 A=1111 B=1010 c_in=0 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7630 A=1111 B=1011 c_in=0 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7640 A=1111 B=1100 c_in=0 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7650 A=1111 B=1101 c_in=0 OP=001 R=1100, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7660 A=1111 B=1110 c_in=0 OP=001 R=1101, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7670 A=1111 B=1111 c_in=0 OP=001 R=1110, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=7680 A=0000 B=0000 c_in=1 OP=001 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7690 A=0000 B=0001 c_in=1 OP=001 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0010
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7700 A=0000 B=0010 c_in=1 OP=001 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0011
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7710 A=0000 B=0011 c_in=1 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0100
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7720 A=0000 B=0100 c_in=1 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0101
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7730 A=0000 B=0101 c_in=1 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0110
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7740 A=0000 B=0110 c_in=1 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0111
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7750 A=0000 B=0111 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7760 A=0000 B=1000 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7770 A=0000 B=1001 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7780 A=0000 B=1010 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7790 A=0000 B=1011 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7800 A=0000 B=1100 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7810 A=0000 B=1101 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7820 A=0000 B=1110 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7830 A=0000 B=1111 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=7840 A=0001 B=0000 c_in=1 OP=001 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0010
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7850 A=0001 B=0001 c_in=1 OP=001 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0011
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7860 A=0001 B=0010 c_in=1 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0100
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7870 A=0001 B=0011 c_in=1 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0101
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7880 A=0001 B=0100 c_in=1 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0110
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7890 A=0001 B=0101 c_in=1 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0111
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7900 A=0001 B=0110 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1000
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7910 A=0001 B=0111 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1001
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7920 A=0001 B=1000 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1010
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7930 A=0001 B=1001 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1011
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7940 A=0001 B=1010 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1100
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7950 A=0001 B=1011 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1101
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7960 A=0001 B=1100 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1110
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7970 A=0001 B=1101 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1111
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=7990 A=0001 B=1111 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0001
+	Flag de cero esperado 1, obtenido 0
+tiempo=8000 A=0010 B=0000 c_in=1 OP=001 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=8010 A=0010 B=0001 c_in=1 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=8020 A=0010 B=0010 c_in=1 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=8030 A=0010 B=0011 c_in=1 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=8040 A=0010 B=0100 c_in=1 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=8050 A=0010 B=0101 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1000
+tiempo=8060 A=0010 B=0110 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1001
+tiempo=8070 A=0010 B=0111 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1010
+tiempo=8080 A=0010 B=1000 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1011
+tiempo=8090 A=0010 B=1001 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1100
+tiempo=8100 A=0010 B=1010 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1101
+tiempo=8110 A=0010 B=1011 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1110
+tiempo=8130 A=0010 B=1101 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8140 A=0010 B=1110 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8150 A=0010 B=1111 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8160 A=0011 B=0000 c_in=1 OP=001 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=8170 A=0011 B=0001 c_in=1 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=8180 A=0011 B=0010 c_in=1 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=8190 A=0011 B=0011 c_in=1 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=8200 A=0011 B=0100 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1000
+tiempo=8210 A=0011 B=0101 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1001
+tiempo=8220 A=0011 B=0110 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1010
+tiempo=8230 A=0011 B=0111 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1011
+tiempo=8240 A=0011 B=1000 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1100
+tiempo=8250 A=0011 B=1001 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1101
+tiempo=8270 A=0011 B=1011 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1111
+tiempo=8280 A=0011 B=1100 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8290 A=0011 B=1101 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8300 A=0011 B=1110 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8310 A=0011 B=1111 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8320 A=0100 B=0000 c_in=1 OP=001 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=8330 A=0100 B=0001 c_in=1 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=8340 A=0100 B=0010 c_in=1 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=8350 A=0100 B=0011 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1000
+tiempo=8360 A=0100 B=0100 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1001
+tiempo=8370 A=0100 B=0101 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1010
+tiempo=8380 A=0100 B=0110 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1011
+tiempo=8390 A=0100 B=0111 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1100
+tiempo=8410 A=0100 B=1001 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1110
+tiempo=8420 A=0100 B=1010 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1111
+tiempo=8430 A=0100 B=1011 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8440 A=0100 B=1100 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8450 A=0100 B=1101 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8460 A=0100 B=1110 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8470 A=0100 B=1111 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8480 A=0101 B=0000 c_in=1 OP=001 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=8490 A=0101 B=0001 c_in=1 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=8500 A=0101 B=0010 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1000
+tiempo=8510 A=0101 B=0011 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1001
+tiempo=8520 A=0101 B=0100 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1010
+tiempo=8530 A=0101 B=0101 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1011
+tiempo=8550 A=0101 B=0111 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1101
+tiempo=8560 A=0101 B=1000 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1110
+tiempo=8570 A=0101 B=1001 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1111
+tiempo=8580 A=0101 B=1010 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8590 A=0101 B=1011 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8600 A=0101 B=1100 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8610 A=0101 B=1101 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8620 A=0101 B=1110 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8630 A=0101 B=1111 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8640 A=0110 B=0000 c_in=1 OP=001 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=8650 A=0110 B=0001 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1000
+tiempo=8660 A=0110 B=0010 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1001
+tiempo=8670 A=0110 B=0011 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1010
+tiempo=8690 A=0110 B=0101 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1100
+tiempo=8700 A=0110 B=0110 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1101
+tiempo=8710 A=0110 B=0111 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1110
+tiempo=8720 A=0110 B=1000 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1111
+tiempo=8730 A=0110 B=1001 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8740 A=0110 B=1010 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8750 A=0110 B=1011 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8760 A=0110 B=1100 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8770 A=0110 B=1101 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8780 A=0110 B=1110 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8790 A=0110 B=1111 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8800 A=0111 B=0000 c_in=1 OP=001 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1000
+tiempo=8810 A=0111 B=0001 c_in=1 OP=001 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1001
+tiempo=8830 A=0111 B=0011 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1011
+tiempo=8840 A=0111 B=0100 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1100
+tiempo=8850 A=0111 B=0101 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1101
+tiempo=8860 A=0111 B=0110 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1110
+tiempo=8870 A=0111 B=0111 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1111
+tiempo=8880 A=0111 B=1000 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8890 A=0111 B=1001 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8900 A=0111 B=1010 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8910 A=0111 B=1011 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8920 A=0111 B=1100 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8930 A=0111 B=1101 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8940 A=0111 B=1110 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8950 A=0111 B=1111 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=8970 A=1000 B=0001 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1010
+tiempo=8980 A=1000 B=0010 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1011
+tiempo=8990 A=1000 B=0011 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1100
+tiempo=9000 A=1000 B=0100 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1101
+tiempo=9010 A=1000 B=0101 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1110
+tiempo=9020 A=1000 B=0110 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1111
+tiempo=9030 A=1000 B=0111 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9040 A=1000 B=1000 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9050 A=1000 B=1001 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9060 A=1000 B=1010 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9070 A=1000 B=1011 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9080 A=1000 B=1100 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9090 A=1000 B=1101 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9100 A=1000 B=1110 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9110 A=1000 B=1111 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1000
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9120 A=1001 B=0000 c_in=1 OP=001 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1010
+tiempo=9130 A=1001 B=0001 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1011
+tiempo=9140 A=1001 B=0010 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1100
+tiempo=9150 A=1001 B=0011 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1101
+tiempo=9160 A=1001 B=0100 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1110
+tiempo=9170 A=1001 B=0101 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1111
+tiempo=9180 A=1001 B=0110 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9190 A=1001 B=0111 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9200 A=1001 B=1000 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9210 A=1001 B=1001 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9220 A=1001 B=1010 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9230 A=1001 B=1011 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9240 A=1001 B=1100 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9250 A=1001 B=1101 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9260 A=1001 B=1110 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9270 A=1001 B=1111 c_in=1 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9280 A=1010 B=0000 c_in=1 OP=001 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=9290 A=1010 B=0001 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=9300 A=1010 B=0010 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=9310 A=1010 B=0011 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=9320 A=1010 B=0100 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=9330 A=1010 B=0101 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9340 A=1010 B=0110 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9350 A=1010 B=0111 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9360 A=1010 B=1000 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9370 A=1010 B=1001 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9380 A=1010 B=1010 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9390 A=1010 B=1011 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9400 A=1010 B=1100 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9410 A=1010 B=1101 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9420 A=1010 B=1110 c_in=1 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9430 A=1010 B=1111 c_in=1 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9440 A=1011 B=0000 c_in=1 OP=001 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=9450 A=1011 B=0001 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=9460 A=1011 B=0010 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=9470 A=1011 B=0011 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=9480 A=1011 B=0100 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9490 A=1011 B=0101 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9500 A=1011 B=0110 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9510 A=1011 B=0111 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9520 A=1011 B=1000 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9530 A=1011 B=1001 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9540 A=1011 B=1010 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9550 A=1011 B=1011 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9560 A=1011 B=1100 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9570 A=1011 B=1101 c_in=1 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9580 A=1011 B=1110 c_in=1 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9590 A=1011 B=1111 c_in=1 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9600 A=1100 B=0000 c_in=1 OP=001 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=9610 A=1100 B=0001 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=9620 A=1100 B=0010 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=9630 A=1100 B=0011 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9640 A=1100 B=0100 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9650 A=1100 B=0101 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9660 A=1100 B=0110 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9670 A=1100 B=0111 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9680 A=1100 B=1000 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9690 A=1100 B=1001 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9700 A=1100 B=1010 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9710 A=1100 B=1011 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9720 A=1100 B=1100 c_in=1 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9730 A=1100 B=1101 c_in=1 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9740 A=1100 B=1110 c_in=1 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9750 A=1100 B=1111 c_in=1 OP=001 R=1100, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9760 A=1101 B=0000 c_in=1 OP=001 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=9770 A=1101 B=0001 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=9780 A=1101 B=0010 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9790 A=1101 B=0011 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9800 A=1101 B=0100 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9810 A=1101 B=0101 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9820 A=1101 B=0110 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9830 A=1101 B=0111 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9840 A=1101 B=1000 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9850 A=1101 B=1001 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9860 A=1101 B=1010 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9870 A=1101 B=1011 c_in=1 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9880 A=1101 B=1100 c_in=1 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9890 A=1101 B=1101 c_in=1 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9900 A=1101 B=1110 c_in=1 OP=001 R=1100, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9910 A=1101 B=1111 c_in=1 OP=001 R=1101, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9920 A=1110 B=0000 c_in=1 OP=001 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=9930 A=1110 B=0001 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9940 A=1110 B=0010 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9950 A=1110 B=0011 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0010
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9960 A=1110 B=0100 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9970 A=1110 B=0101 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9980 A=1110 B=0110 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=9990 A=1110 B=0111 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10000 A=1110 B=1000 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10010 A=1110 B=1001 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10020 A=1110 B=1010 c_in=1 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10030 A=1110 B=1011 c_in=1 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10040 A=1110 B=1100 c_in=1 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10050 A=1110 B=1101 c_in=1 OP=001 R=1100, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10060 A=1110 B=1110 c_in=1 OP=001 R=1101, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10070 A=1110 B=1111 c_in=1 OP=001 R=1110, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10080 A=1111 B=0000 c_in=1 OP=001 R=0000, Z=1, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10090 A=1111 B=0001 c_in=1 OP=001 R=0001, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0001
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10100 A=1111 B=0010 c_in=1 OP=001 R=0010, Z=0, C=1, S=0. ---- ERROR
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10110 A=1111 B=0011 c_in=1 OP=001 R=0011, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0011
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10120 A=1111 B=0100 c_in=1 OP=001 R=0100, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0100
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10130 A=1111 B=0101 c_in=1 OP=001 R=0101, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0101
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10140 A=1111 B=0110 c_in=1 OP=001 R=0110, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0110
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10150 A=1111 B=0111 c_in=1 OP=001 R=0111, Z=0, C=1, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0111
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10160 A=1111 B=1000 c_in=1 OP=001 R=1000, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10170 A=1111 B=1001 c_in=1 OP=001 R=1001, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10180 A=1111 B=1010 c_in=1 OP=001 R=1010, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10190 A=1111 B=1011 c_in=1 OP=001 R=1011, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10200 A=1111 B=1100 c_in=1 OP=001 R=1100, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10210 A=1111 B=1101 c_in=1 OP=001 R=1101, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10220 A=1111 B=1110 c_in=1 OP=001 R=1110, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+tiempo=10230 A=1111 B=1111 c_in=1 OP=001 R=1111, Z=0, C=1, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 0, obtenido 1
+--
+tiempo=15360 A=0000 B=0000 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=15380 A=0000 B=0010 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0010
+tiempo=15390 A=0000 B=0011 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0011
+tiempo=15400 A=0000 B=0100 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0100
+tiempo=15410 A=0000 B=0101 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0101
+tiempo=15420 A=0000 B=0110 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0110
+tiempo=15430 A=0000 B=0111 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0111
+tiempo=15440 A=0000 B=1000 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=15450 A=0000 B=1001 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=15460 A=0000 B=1010 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=15470 A=0000 B=1011 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=15480 A=0000 B=1100 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=15490 A=0000 B=1101 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=15500 A=0000 B=1110 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=15510 A=0000 B=1111 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=15520 A=0001 B=0000 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0001
+tiempo=15540 A=0001 B=0010 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0011
+tiempo=15550 A=0001 B=0011 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0100
+tiempo=15560 A=0001 B=0100 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0101
+tiempo=15570 A=0001 B=0101 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0110
+tiempo=15580 A=0001 B=0110 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0111
+tiempo=15590 A=0001 B=0111 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=15600 A=0001 B=1000 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=15610 A=0001 B=1001 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=15620 A=0001 B=1010 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=15630 A=0001 B=1011 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=15640 A=0001 B=1100 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=15650 A=0001 B=1101 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=15660 A=0001 B=1110 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=15670 A=0001 B=1111 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=15680 A=0010 B=0000 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0010
+tiempo=15700 A=0010 B=0010 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0100
+tiempo=15710 A=0010 B=0011 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0101
+tiempo=15720 A=0010 B=0100 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0110
+tiempo=15730 A=0010 B=0101 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0111
+tiempo=15740 A=0010 B=0110 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=15750 A=0010 B=0111 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=15760 A=0010 B=1000 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=15770 A=0010 B=1001 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=15780 A=0010 B=1010 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=15790 A=0010 B=1011 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=15800 A=0010 B=1100 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=15810 A=0010 B=1101 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=15820 A=0010 B=1110 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=15830 A=0010 B=1111 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0001
+tiempo=15840 A=0011 B=0000 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0011
+tiempo=15860 A=0011 B=0010 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0101
+tiempo=15870 A=0011 B=0011 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0110
+tiempo=15880 A=0011 B=0100 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0111
+tiempo=15890 A=0011 B=0101 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=15900 A=0011 B=0110 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=15910 A=0011 B=0111 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=15920 A=0011 B=1000 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=15930 A=0011 B=1001 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=15940 A=0011 B=1010 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=15950 A=0011 B=1011 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=15960 A=0011 B=1100 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=15970 A=0011 B=1101 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=15980 A=0011 B=1110 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0001
+tiempo=15990 A=0011 B=1111 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0010
+tiempo=16000 A=0100 B=0000 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0100
+tiempo=16020 A=0100 B=0010 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0110
+tiempo=16030 A=0100 B=0011 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0111
+tiempo=16040 A=0100 B=0100 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=16050 A=0100 B=0101 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=16060 A=0100 B=0110 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=16070 A=0100 B=0111 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=16080 A=0100 B=1000 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=16090 A=0100 B=1001 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=16100 A=0100 B=1010 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=16110 A=0100 B=1011 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=16120 A=0100 B=1100 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=16130 A=0100 B=1101 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0001
+tiempo=16140 A=0100 B=1110 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0010
+tiempo=16150 A=0100 B=1111 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0011
+tiempo=16160 A=0101 B=0000 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0101
+tiempo=16180 A=0101 B=0010 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0111
+tiempo=16190 A=0101 B=0011 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=16200 A=0101 B=0100 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=16210 A=0101 B=0101 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=16220 A=0101 B=0110 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=16230 A=0101 B=0111 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=16240 A=0101 B=1000 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=16250 A=0101 B=1001 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=16260 A=0101 B=1010 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=16270 A=0101 B=1011 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=16280 A=0101 B=1100 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0001
+tiempo=16290 A=0101 B=1101 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0010
+tiempo=16300 A=0101 B=1110 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0011
+tiempo=16310 A=0101 B=1111 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0100
+tiempo=16320 A=0110 B=0000 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0110
+tiempo=16340 A=0110 B=0010 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=16350 A=0110 B=0011 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=16360 A=0110 B=0100 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=16370 A=0110 B=0101 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=16380 A=0110 B=0110 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=16390 A=0110 B=0111 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=16400 A=0110 B=1000 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=16410 A=0110 B=1001 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=16420 A=0110 B=1010 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=16430 A=0110 B=1011 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0001
+tiempo=16440 A=0110 B=1100 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0010
+tiempo=16450 A=0110 B=1101 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0011
+tiempo=16460 A=0110 B=1110 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0100
+tiempo=16470 A=0110 B=1111 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0101
+tiempo=16480 A=0111 B=0000 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=16500 A=0111 B=0010 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1001
+tiempo=16510 A=0111 B=0011 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1010
+tiempo=16520 A=0111 B=0100 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1011
+tiempo=16530 A=0111 B=0101 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1100
+tiempo=16540 A=0111 B=0110 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1101
+tiempo=16550 A=0111 B=0111 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1110
+tiempo=16560 A=0111 B=1000 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1111
+tiempo=16570 A=0111 B=1001 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=16580 A=0111 B=1010 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=16590 A=0111 B=1011 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=16600 A=0111 B=1100 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=16610 A=0111 B=1101 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=16620 A=0111 B=1110 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=16630 A=0111 B=1111 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=16640 A=1000 B=0000 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1000
+tiempo=16660 A=1000 B=0010 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1010
+tiempo=16670 A=1000 B=0011 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1011
+tiempo=16680 A=1000 B=0100 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1100
+tiempo=16690 A=1000 B=0101 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1101
+tiempo=16700 A=1000 B=0110 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1110
+tiempo=16710 A=1000 B=0111 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1111
+tiempo=16720 A=1000 B=1000 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=16730 A=1000 B=1001 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=16740 A=1000 B=1010 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=16750 A=1000 B=1011 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=16760 A=1000 B=1100 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=16770 A=1000 B=1101 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=16780 A=1000 B=1110 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=16790 A=1000 B=1111 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=16800 A=1001 B=0000 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1001
+tiempo=16820 A=1001 B=0010 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1011
+tiempo=16830 A=1001 B=0011 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1100
+tiempo=16840 A=1001 B=0100 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1101
+tiempo=16850 A=1001 B=0101 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1110
+tiempo=16860 A=1001 B=0110 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1111
+tiempo=16870 A=1001 B=0111 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=16880 A=1001 B=1000 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=16890 A=1001 B=1001 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=16900 A=1001 B=1010 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=16910 A=1001 B=1011 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=16920 A=1001 B=1100 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=16930 A=1001 B=1101 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=16940 A=1001 B=1110 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=16950 A=1001 B=1111 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1000
+tiempo=16960 A=1010 B=0000 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1010
+tiempo=16980 A=1010 B=0010 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1100
+tiempo=16990 A=1010 B=0011 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1101
+tiempo=17000 A=1010 B=0100 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1110
+tiempo=17010 A=1010 B=0101 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1111
+tiempo=17020 A=1010 B=0110 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=17030 A=1010 B=0111 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=17040 A=1010 B=1000 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=17050 A=1010 B=1001 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=17060 A=1010 B=1010 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=17070 A=1010 B=1011 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=17080 A=1010 B=1100 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=17090 A=1010 B=1101 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=17100 A=1010 B=1110 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1000
+tiempo=17110 A=1010 B=1111 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1001
+tiempo=17120 A=1011 B=0000 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1011
+tiempo=17140 A=1011 B=0010 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1101
+tiempo=17150 A=1011 B=0011 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1110
+tiempo=17160 A=1011 B=0100 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1111
+tiempo=17170 A=1011 B=0101 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=17180 A=1011 B=0110 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=17190 A=1011 B=0111 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=17200 A=1011 B=1000 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=17210 A=1011 B=1001 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=17220 A=1011 B=1010 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=17230 A=1011 B=1011 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=17240 A=1011 B=1100 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=17250 A=1011 B=1101 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1000
+tiempo=17260 A=1011 B=1110 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1001
+tiempo=17270 A=1011 B=1111 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1010
+tiempo=17280 A=1100 B=0000 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1100
+tiempo=17300 A=1100 B=0010 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1110
+tiempo=17310 A=1100 B=0011 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1111
+tiempo=17320 A=1100 B=0100 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=17330 A=1100 B=0101 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=17340 A=1100 B=0110 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=17350 A=1100 B=0111 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=17360 A=1100 B=1000 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=17370 A=1100 B=1001 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=17380 A=1100 B=1010 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=17390 A=1100 B=1011 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=17400 A=1100 B=1100 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1000
+tiempo=17410 A=1100 B=1101 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1001
+tiempo=17420 A=1100 B=1110 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1010
+tiempo=17430 A=1100 B=1111 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1011
+tiempo=17440 A=1101 B=0000 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1101
+tiempo=17460 A=1101 B=0010 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1111
+tiempo=17470 A=1101 B=0011 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=17480 A=1101 B=0100 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=17490 A=1101 B=0101 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=17500 A=1101 B=0110 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=17510 A=1101 B=0111 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=17520 A=1101 B=1000 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=17530 A=1101 B=1001 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=17540 A=1101 B=1010 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=17550 A=1101 B=1011 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1000
+tiempo=17560 A=1101 B=1100 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1001
+tiempo=17570 A=1101 B=1101 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1010
+tiempo=17580 A=1101 B=1110 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1011
+tiempo=17590 A=1101 B=1111 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1100
+tiempo=17600 A=1110 B=0000 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1110
+tiempo=17620 A=1110 B=0010 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=17630 A=1110 B=0011 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=17640 A=1110 B=0100 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=17650 A=1110 B=0101 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=17660 A=1110 B=0110 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=17670 A=1110 B=0111 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=17680 A=1110 B=1000 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=17690 A=1110 B=1001 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=17700 A=1110 B=1010 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1000
+tiempo=17710 A=1110 B=1011 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1001
+tiempo=17720 A=1110 B=1100 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1010
+tiempo=17730 A=1110 B=1101 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1011
+tiempo=17740 A=1110 B=1110 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1100
+tiempo=17750 A=1110 B=1111 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1101
+tiempo=17760 A=1111 B=0000 c_in=0 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1111
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17770 A=1111 B=0001 c_in=0 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17780 A=1111 B=0010 c_in=0 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0001
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17790 A=1111 B=0011 c_in=0 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0010
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17800 A=1111 B=0100 c_in=0 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0011
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17810 A=1111 B=0101 c_in=0 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0100
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17820 A=1111 B=0110 c_in=0 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0101
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17830 A=1111 B=0111 c_in=0 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0110
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17840 A=1111 B=1000 c_in=0 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0111
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17850 A=1111 B=1001 c_in=0 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1000
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17860 A=1111 B=1010 c_in=0 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1001
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17870 A=1111 B=1011 c_in=0 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1010
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17880 A=1111 B=1100 c_in=0 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1011
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17890 A=1111 B=1101 c_in=0 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1100
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17900 A=1111 B=1110 c_in=0 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1101
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17910 A=1111 B=1111 c_in=0 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1110
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=17920 A=0000 B=0000 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0001
+tiempo=17940 A=0000 B=0010 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0011
+tiempo=17950 A=0000 B=0011 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0100
+tiempo=17960 A=0000 B=0100 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0101
+tiempo=17970 A=0000 B=0101 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0110
+tiempo=17980 A=0000 B=0110 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0111
+tiempo=17990 A=0000 B=0111 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=18000 A=0000 B=1000 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=18010 A=0000 B=1001 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=18020 A=0000 B=1010 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=18030 A=0000 B=1011 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=18040 A=0000 B=1100 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=18050 A=0000 B=1101 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=18060 A=0000 B=1110 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0010, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=18070 A=0000 B=1111 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=18080 A=0001 B=0000 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0010
+tiempo=18100 A=0001 B=0010 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0100
+tiempo=18110 A=0001 B=0011 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0101
+tiempo=18120 A=0001 B=0100 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0110
+tiempo=18130 A=0001 B=0101 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0111
+tiempo=18140 A=0001 B=0110 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=18150 A=0001 B=0111 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=18160 A=0001 B=1000 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=18170 A=0001 B=1001 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=18180 A=0001 B=1010 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=18190 A=0001 B=1011 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=18200 A=0001 B=1100 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=18210 A=0001 B=1101 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0011, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=18220 A=0001 B=1110 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=18230 A=0001 B=1111 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0011, obtenido 0001
+tiempo=18240 A=0010 B=0000 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0011
+tiempo=18260 A=0010 B=0010 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0101
+tiempo=18270 A=0010 B=0011 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0110
+tiempo=18280 A=0010 B=0100 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0111
+tiempo=18290 A=0010 B=0101 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=18300 A=0010 B=0110 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=18310 A=0010 B=0111 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=18320 A=0010 B=1000 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=18330 A=0010 B=1001 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=18340 A=0010 B=1010 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=18350 A=0010 B=1011 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=18360 A=0010 B=1100 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0100, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=18370 A=0010 B=1101 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=18380 A=0010 B=1110 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0001
+tiempo=18390 A=0010 B=1111 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0100, obtenido 0010
+tiempo=18400 A=0011 B=0000 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0100
+tiempo=18420 A=0011 B=0010 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0110
+tiempo=18430 A=0011 B=0011 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0111
+tiempo=18440 A=0011 B=0100 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=18450 A=0011 B=0101 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=18460 A=0011 B=0110 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=18470 A=0011 B=0111 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=18480 A=0011 B=1000 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=18490 A=0011 B=1001 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=18500 A=0011 B=1010 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=18510 A=0011 B=1011 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0101, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=18520 A=0011 B=1100 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=18530 A=0011 B=1101 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0001
+tiempo=18540 A=0011 B=1110 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0010
+tiempo=18550 A=0011 B=1111 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0101, obtenido 0011
+tiempo=18560 A=0100 B=0000 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0101
+tiempo=18580 A=0100 B=0010 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0111
+tiempo=18590 A=0100 B=0011 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=18600 A=0100 B=0100 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=18610 A=0100 B=0101 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=18620 A=0100 B=0110 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=18630 A=0100 B=0111 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=18640 A=0100 B=1000 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=18650 A=0100 B=1001 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=18660 A=0100 B=1010 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0110, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=18670 A=0100 B=1011 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=18680 A=0100 B=1100 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0001
+tiempo=18690 A=0100 B=1101 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0010
+tiempo=18700 A=0100 B=1110 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0011
+tiempo=18710 A=0100 B=1111 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0110, obtenido 0100
+tiempo=18720 A=0101 B=0000 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0110
+tiempo=18740 A=0101 B=0010 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+tiempo=18750 A=0101 B=0011 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+tiempo=18760 A=0101 B=0100 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+tiempo=18770 A=0101 B=0101 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+tiempo=18780 A=0101 B=0110 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+tiempo=18790 A=0101 B=0111 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+tiempo=18800 A=0101 B=1000 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+tiempo=18810 A=0101 B=1001 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0111, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+tiempo=18820 A=0101 B=1010 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+tiempo=18830 A=0101 B=1011 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0001
+tiempo=18840 A=0101 B=1100 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0010
+tiempo=18850 A=0101 B=1101 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0011
+tiempo=18860 A=0101 B=1110 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0100
+tiempo=18870 A=0101 B=1111 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0111, obtenido 0101
+tiempo=18880 A=0110 B=0000 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=18900 A=0110 B=0010 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1001
+tiempo=18910 A=0110 B=0011 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1010
+tiempo=18920 A=0110 B=0100 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1011
+tiempo=18930 A=0110 B=0101 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1100
+tiempo=18940 A=0110 B=0110 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1101
+tiempo=18950 A=0110 B=0111 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1110
+tiempo=18960 A=0110 B=1000 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1000, obtenido 1111
+tiempo=18970 A=0110 B=1001 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=18980 A=0110 B=1010 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=18990 A=0110 B=1011 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=19000 A=0110 B=1100 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=19010 A=0110 B=1101 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=19020 A=0110 B=1110 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=19030 A=0110 B=1111 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1000, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=19040 A=0111 B=0000 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1000
+tiempo=19060 A=0111 B=0010 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1010
+tiempo=19070 A=0111 B=0011 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1011
+tiempo=19080 A=0111 B=0100 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1100
+tiempo=19090 A=0111 B=0101 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1101
+tiempo=19100 A=0111 B=0110 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1110
+tiempo=19110 A=0111 B=0111 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1001, obtenido 1111
+tiempo=19120 A=0111 B=1000 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=19130 A=0111 B=1001 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=19140 A=0111 B=1010 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=19150 A=0111 B=1011 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=19160 A=0111 B=1100 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=19170 A=0111 B=1101 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=19180 A=0111 B=1110 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=19190 A=0111 B=1111 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1001, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=19200 A=1000 B=0000 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1001
+tiempo=19220 A=1000 B=0010 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1011
+tiempo=19230 A=1000 B=0011 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1100
+tiempo=19240 A=1000 B=0100 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1101
+tiempo=19250 A=1000 B=0101 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1110
+tiempo=19260 A=1000 B=0110 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1111
+tiempo=19270 A=1000 B=0111 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=19280 A=1000 B=1000 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=19290 A=1000 B=1001 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=19300 A=1000 B=1010 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=19310 A=1000 B=1011 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=19320 A=1000 B=1100 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=19330 A=1000 B=1101 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=19340 A=1000 B=1110 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1010, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=19350 A=1000 B=1111 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1010, obtenido 1000
+tiempo=19360 A=1001 B=0000 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1010
+tiempo=19380 A=1001 B=0010 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1100
+tiempo=19390 A=1001 B=0011 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1101
+tiempo=19400 A=1001 B=0100 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1110
+tiempo=19410 A=1001 B=0101 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1111
+tiempo=19420 A=1001 B=0110 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=19430 A=1001 B=0111 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=19440 A=1001 B=1000 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=19450 A=1001 B=1001 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=19460 A=1001 B=1010 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=19470 A=1001 B=1011 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=19480 A=1001 B=1100 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=19490 A=1001 B=1101 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1011, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=19500 A=1001 B=1110 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1000
+tiempo=19510 A=1001 B=1111 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1011, obtenido 1001
+tiempo=19520 A=1010 B=0000 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1011
+tiempo=19540 A=1010 B=0010 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1101
+tiempo=19550 A=1010 B=0011 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1110
+tiempo=19560 A=1010 B=0100 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1111
+tiempo=19570 A=1010 B=0101 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=19580 A=1010 B=0110 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=19590 A=1010 B=0111 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=19600 A=1010 B=1000 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=19610 A=1010 B=1001 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=19620 A=1010 B=1010 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=19630 A=1010 B=1011 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=19640 A=1010 B=1100 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1100, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=19650 A=1010 B=1101 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1000
+tiempo=19660 A=1010 B=1110 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1001
+tiempo=19670 A=1010 B=1111 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1100, obtenido 1010
+tiempo=19680 A=1011 B=0000 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1100
+tiempo=19700 A=1011 B=0010 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1110
+tiempo=19710 A=1011 B=0011 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1111
+tiempo=19720 A=1011 B=0100 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=19730 A=1011 B=0101 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=19740 A=1011 B=0110 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=19750 A=1011 B=0111 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=19760 A=1011 B=1000 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=19770 A=1011 B=1001 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=19780 A=1011 B=1010 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=19790 A=1011 B=1011 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1101, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=19800 A=1011 B=1100 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1000
+tiempo=19810 A=1011 B=1101 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1001
+tiempo=19820 A=1011 B=1110 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1010
+tiempo=19830 A=1011 B=1111 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1101, obtenido 1011
+tiempo=19840 A=1100 B=0000 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1101
+tiempo=19860 A=1100 B=0010 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1111
+tiempo=19870 A=1100 B=0011 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=19880 A=1100 B=0100 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=19890 A=1100 B=0101 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=19900 A=1100 B=0110 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=19910 A=1100 B=0111 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=19920 A=1100 B=1000 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=19930 A=1100 B=1001 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=19940 A=1100 B=1010 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1110, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=19950 A=1100 B=1011 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1000
+tiempo=19960 A=1100 B=1100 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1001
+tiempo=19970 A=1100 B=1101 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1010
+tiempo=19980 A=1100 B=1110 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1011
+tiempo=19990 A=1100 B=1111 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1110, obtenido 1100
+tiempo=20000 A=1101 B=0000 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1110
+tiempo=20020 A=1101 B=0010 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de signo esperado 1, obtenido 0
+tiempo=20030 A=1101 B=0011 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0001
+	Flag de signo esperado 1, obtenido 0
+tiempo=20040 A=1101 B=0100 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0010
+	Flag de signo esperado 1, obtenido 0
+tiempo=20050 A=1101 B=0101 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0011
+	Flag de signo esperado 1, obtenido 0
+tiempo=20060 A=1101 B=0110 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0100
+	Flag de signo esperado 1, obtenido 0
+tiempo=20070 A=1101 B=0111 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0101
+	Flag de signo esperado 1, obtenido 0
+tiempo=20080 A=1101 B=1000 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0110
+	Flag de signo esperado 1, obtenido 0
+tiempo=20090 A=1101 B=1001 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 1111, obtenido 0111
+	Flag de signo esperado 1, obtenido 0
+tiempo=20100 A=1101 B=1010 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1000
+tiempo=20110 A=1101 B=1011 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1001
+tiempo=20120 A=1101 B=1100 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1010
+tiempo=20130 A=1101 B=1101 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1011
+tiempo=20140 A=1101 B=1110 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1100
+tiempo=20150 A=1101 B=1111 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 1111, obtenido 1101
+tiempo=20160 A=1110 B=0000 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1111
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20170 A=1110 B=0001 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20180 A=1110 B=0010 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0001
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20190 A=1110 B=0011 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0010
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20200 A=1110 B=0100 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0011
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20210 A=1110 B=0101 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0100
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20220 A=1110 B=0110 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0101
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20230 A=1110 B=0111 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0110
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20240 A=1110 B=1000 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0000, obtenido 0111
+	Flag de cero esperado 1, obtenido 0
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20250 A=1110 B=1001 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1000
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20260 A=1110 B=1010 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1001
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20270 A=1110 B=1011 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1010
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20280 A=1110 B=1100 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1011
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20290 A=1110 B=1101 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1100
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20300 A=1110 B=1110 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1101
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20310 A=1110 B=1111 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0000, obtenido 1110
+	Flag de cero esperado 1, obtenido 0
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20320 A=1111 B=0000 c_in=1 OP=011 R=0000, Z=1, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0000
+	Flag de cero esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20330 A=1111 B=0001 c_in=1 OP=011 R=0001, Z=0, C=0, S=0. ---- ERROR
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20340 A=1111 B=0010 c_in=1 OP=011 R=0010, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0010
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20350 A=1111 B=0011 c_in=1 OP=011 R=0011, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0011
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20360 A=1111 B=0100 c_in=1 OP=011 R=0100, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0100
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20370 A=1111 B=0101 c_in=1 OP=011 R=0101, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0101
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20380 A=1111 B=0110 c_in=1 OP=011 R=0110, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0110
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20390 A=1111 B=0111 c_in=1 OP=011 R=0111, Z=0, C=0, S=0. ---- ERROR
+	Resultado esperado 0001, obtenido 0111
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20400 A=1111 B=1000 c_in=1 OP=011 R=1000, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1000
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20410 A=1111 B=1001 c_in=1 OP=011 R=1001, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1001
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20420 A=1111 B=1010 c_in=1 OP=011 R=1010, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1010
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20430 A=1111 B=1011 c_in=1 OP=011 R=1011, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1011
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20440 A=1111 B=1100 c_in=1 OP=011 R=1100, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1100
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20450 A=1111 B=1101 c_in=1 OP=011 R=1101, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1101
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20460 A=1111 B=1110 c_in=1 OP=011 R=1110, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1110
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+tiempo=20470 A=1111 B=1111 c_in=1 OP=011 R=1111, Z=0, C=0, S=1. ---- ERROR
+	Resultado esperado 0001, obtenido 1111
+	Flag de signo esperado 0, obtenido 1
+	Flag de acarreo esperado 1, obtenido 0
+--
+Encontradas         995 operaciones erroneas
+alu_tb.v:50: $finish called at 4096000 (10ps)

@@ -15,86 +15,51 @@
 *     07 Oct 2024 - Creación (primera versión) del código
 */
 
-#ifndef GRAFO_H
-#define GRAFO_H
+#ifndef Grafo_H
+#define Grafo_H
 
 #include <vector>
-#include <string>
-#include <iostream>
 #include <fstream>
-#include <sstream>
 #include <algorithm>
-#include <cmath>
+#include <iterator>
 
-using namespace std;
-
-typedef pair<int, int> Coordenadas;
-
-struct Nodo {
-    int x, y;
-    double g, h;
-    Nodo* padre;  // Para rastrear el camino
-
-    // Constructor
-    Nodo(int x, int y, double g, double h, Nodo* padre = nullptr) 
-        : x(x), y(y), g(g), h(h), padre(padre) {}
-
-    bool operator<(const Nodo& otro) const {
-        return (g + h) > (otro.g + otro.h);  // Comparador para priority_queue
-    }
-};
-
+#include "node.h"
 
 class Grafo {
-  private:
-    float costeTotal_;
-    int anchura_;
-    int altura_;
-    Coordenadas inicio_;
-    Coordenadas fin_;
-    vector<vector<int>> matriz_;
-    std::vector<std::pair<int, int>> nodosGenerados; // Para nodos generados
-    std::vector<std::pair<int, int>> nodosInspeccionados; // Para nodos inspeccionados
-    int nodosGenerados_;
-    int nodosInspeccionados_;
+ public:
+  // Parametrized constructor
+  Grafo(std::ifstream& filename);
 
-  public:
+  // Getters
+  int getRows() const;
+  int getCols() const;
+  int getGrafo(int x, int y) const;
+  Node getStart() const;
+  Node getGoal() const;
 
-    Grafo(int anchura, int altura, Coordenadas inicio, Coordenadas fin, float costeTotal) 
-        : anchura_(anchura), altura_(altura), inicio_(inicio), fin_(fin), costeTotal_(costeTotal) {
-      matriz_.resize(anchura_, vector<int>(altura_));
-    }
+  // Setters
+  void setStart(int x, int y);
+  void setGoal(int x, int y);
 
-    void loadGrafo(string nombre_fichero);
-    
-    void imprimir_laberinto();
+  // E/S
+  void printGrafo(std::ostream& out);
+  void printGrafo(const std::vector<Node>& path, std::ostream& out);
+  void readGrafo(std::ifstream& file);
 
-    int get_anchura() const { return anchura_; }
-    int get_altura() const { return altura_; }
-    Coordenadas get_inicio() const { return inicio_; }
-    Coordenadas get_fin() const { return fin_; }
-    int get_nodosGenerados() const { return nodosGenerados_; }
-    int get_nodosInspeccionados() const { return nodosInspeccionados_; }
+  // Heuristic function
+  void aStar(Node start, Node goal, std::vector<Node>& path, std::ofstream& output, IterationLogger& logger);
 
-    void CambiarInicio();
-    void CambiarFin();
-    vector<pair<int, int>> obtenerVecinos(int x, int y);
+  // Functions
+  int CalculateCost(std::vector<Node>& path);
+  void changeCoordinatesStart(int x, int y, Node& start);
+  void changeCoordinatesGoal(int x, int y, Node& goal);
 
-    void aStar(Coordenadas inicio, Coordenadas objetivo, const std::string& nombreArchivo);
-    void aStarModificado(Coordenadas inicio, Coordenadas objetivo, const std::string& nombreArchivo);
-    void ImprimirFicheroResultados(string nombre_fichero);
-    void guardarGrafo(const Grafo& grafo, const std::string& nombreArchivo);
-    void marcarCamino(Nodo* nodo, Grafo& grafo);
-    void guardarNodos(const std::string& nombreArchivo);
-
-    double heuristica(int x1, int y1, int x2, int y2) {
-      return (abs(x1 - x2) + abs(y1 - y2)) * 3;  // W = 3
-    }
-
-    double heuristicaModificada(int x1, int y1, int x2, int y2) {
-      return sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2)) * 3;  // W = 3
-    }
-
+ private:
+  int rows_;
+  int cols_;
+  std::vector<std::vector<int>> matriz_;
+  Node start_;
+  Node goal_;
 };
 
-#endif // GRAFO_H
+#endif // Grafo_H

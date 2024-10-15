@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
     std::ofstream output(salida);
     is_open(input, output);
 
-    Grafo maze(input);
+    Maze maze(input);
     Node start = maze.getStart();
     Node goal = maze.getGoal();
 
@@ -41,19 +41,16 @@ int main(int argc, char* argv[]) {
         goal = maze.getGoal();
     }
 
-    output << "Maze: " << argv[1] << std::endl;
-    maze.printMaze(output);
-
     std::vector<Node> path;
     IterationLogger logger;
     output << std::endl;
-    maze.aStar(start, goal, path, output, logger);
+    for (int i = 0; i < 10; i++) {
+      maze.aStar(start, goal, path, output, logger);
 
     if (path.empty()) {
         output << "No path found." << std::endl;
         return 1;
     } else {
-      output << "\nPath found:" << std::endl;
       maze.printMaze(path, output);
       output << "Camino: ";
       for(const auto& node : path) {
@@ -61,10 +58,26 @@ int main(int argc, char* argv[]) {
       }
 
       int totalCost = maze.CalculateCost(path);
-      output << "| Total Cost: " << totalCost << std::endl << std::endl;
-
-      logger.saveToFile(output, maze.getRows(), maze.getCols(), start, goal);
+      output << "\nCoste: " << totalCost << std::endl << std::endl;
     }
+    }
+    /*
+    maze.aStar(start, goal, path, output, logger);
+
+    if (path.empty()) {
+        output << "No path found." << std::endl;
+        return 1;
+    } else {
+      maze.printMaze(path, output);
+      output << "Camino: ";
+      for(const auto& node : path) {
+        output << "(" << node.getX() + 1 << "," << node.getY() + 1 << ") ";
+      }
+
+      int totalCost = maze.CalculateCost(path);
+      output << "\nCoste: " << totalCost << std::endl << std::endl;
+    }
+    */
 
     return 0;
 }

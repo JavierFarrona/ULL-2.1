@@ -180,134 +180,131 @@ void Grafo::marcarCamino(Nodo* nodo, Grafo& grafo) {
  * una heurística que estima el coste restante hasta el objetivo.
  */
 void Grafo::aStar(Coordenadas inicio, Coordenadas objetivo, const std::string& NombreArchivo) {
-    // Abrir archivo para guardar resultados de la búsqueda
-    std::ofstream nombreArchivo(NombreArchivo);
+    std::ofstream out(NombreArchivo);
     if (!nombreArchivo.is_open()) {
         std::cerr << "Error al abrir el archivo de salida." << std::endl;
         return;
     }
-    
-    // Inicializar la cola de prioridad con el nodo inicial
-    std::priority_queue<Nodo> frontera;
-    frontera.push(Nodo(inicio.first, inicio.second, 0, heuristica(inicio.first, inicio.second, objetivo.first, objetivo.second)));
+    std::vector<Node> openList;
+    std::vector<Node> closedList;
+    std::vector<Node> generatedNodes;
 
-    // Crear una matriz para almacenar el coste mínimo para llegar a cada nodo
-    std::vector<std::vector<float>> coste(altura_, std::vector<float>(anchura_, std::numeric_limits<float>::infinity()));
-    coste[inicio.first][inicio.second] = 0; // Coste del nodo inicial es 0
+    start.setCost(0);
+    start.heuristica(inicio.first, inicio.second, objetivo.first, objetivo.second);
+    // start.euclideanDistance(goal.getX(), goal.getY(), start.getX(), start.getY());
+    openList.push_back(start);
 
-    Nodo* nodoFinal = nullptr; // Inicializar puntero para el nodo final
-    int iteracion = 0;  // Contador de iteraciones
+    int iterations = 1;
+    int accumulatedCost = 0;
 
-    // Escribir en el archivo el inicio de la búsqueda
-    nombreArchivo << "Buscando camino..." << std::endl;
-    nombreArchivo << "Inicio: (" << inicio.first << ", " << inicio.second << ")" << std::endl;
-    nombreArchivo << "Objetivo: (" << objetivo.first << ", " << objetivo.second << ")" << std::endl;
-    nombreArchivo << "--------------------------------" << std::endl;
-    nombreArchivo << "Iteración 0" << std::endl;
-    nombreArchivo << "Nodos generados: (" << inicio.first << ", " << inicio.second << ") ";
-    nodosGenerados.push_back({inicio.first, inicio.second});
-    nombreArchivo << "\nNodos inspeccionados: -" << std::endl;
-    iteracion++;
+    // std::srand(static_cast<unsigned>(std::time(nullptr)));
 
-    // Bucle principal del algoritmo A*
-    while (!frontera.empty()) {
-        nodosInspeccionados_++;  // Incrementar el contador de nodos inspeccionados
-        Nodo actual = frontera.top(); // Obtener el nodo con menor coste
-        frontera.pop();
-        nombreArchivo << "--------------------------------" << std::endl;
-        nombreArchivo << "Iteración " << iteracion << std::endl;
+    while (!openList.empty()) {
+        // Find the node with the lowest f value
+        auto currentIt = std::min_element(openList.begin(), openList.end(), [](const Node& a, const Node& b) {
+            return (a.getCost() + a.getHeuristic()) < (b.getCost() + b.getHeuristic());
+        });
+        int currentIndex = std::distance(openList.begin(), currentIt);
 
-        // Agregar el nodo actual a la lista de nodos inspeccionados
-        nodosInspeccionados.push_back({actual.x, actual.y});
-        nombreArchivo << "Nodos inspeccionados: (" << actual.x << ", " << actual.y << ")" << std::endl;
+        // std::sort(openList.begin(), openList.end(), [](const Node& a, const Node& b) {
+        //     return (a.getCost() + a.getHeuristic()) < (b.getCost() + b.getHeuristic());
+        // });
 
-        // Comprobar si hemos llegado al objetivo
-        if (actual.x == objetivo.first && actual.y == objetivo.second) {
-            nodoFinal = new Nodo(actual);  // Guardar el nodo final
-            break; // Salir del bucle si se encuentra el objetivo
+        // int numElements = std::min(3, static_cast<int>(openList.size()));
+        // std::vector<Node> smallestNodes(openList.begin(), openList.begin() + numElements);
+
+        // int currentIndex = std::rand() % numElements;
+
+        Node current = openList[currentIndex];
+
+        // Mostrar la iteración
+        out << "Iteración: " << iterations++ << "\n";
+        // Mostrar nodo actual
+        out << "Nodo actual: (" << current.getX() + 1 << "," << current.getY() + 1 << ")\n";
+
+        if (current.getX() == goal.getX() && current.getY() == goal.getY()) {
+            // Nodos generados
+            out << "Nodos generados: -\n";
+            out << "Nodos inspeccionados: " << current.getX() + 1 << "," << current.getY() + 1<< "\n";
+            // Reconstruct path
+            while (!(current.getX() == start.getX() && current.getY() == start.getY())) {
+                path.push_back(current);
+                std::pair<int, int> parent = current.getParent();
+                auto it = std::find_if(closedList.begin(), closedList.end(), [&parent](const Node& n) {
+                    return n.getX() == parent.first && n.getY() == parent.second;
+                });
+                if (it != closedList.end()) {
+                    current = *it;
+                } else {
+                    break;
+                }
+            }
+            closedList.push_back(goal);
+            path.push_back(start);
+            accumulatedCost = CalculateCost(path);
+            logger.logIteration(current, generatedNodes, closedList, accumulatedCost);
+            std::reverse(path.begin(), path.end());
+            return;
         }
 
-        // Obtener vecinos del nodo actual
-        for (auto [nx, ny] : this->obtenerVecinos(actual.x, actual.y)) {
-            float nuevoCoste = coste[actual.x][actual.y]; // Coste hasta el nodo actual
-            // Ajustar el coste para movimientos diagonales u ortogonales
-            if (abs(actual.x - nx) == 1 && abs(actual.y - ny) == 1) {
-                nuevoCoste += 7;  // Coste de 7 para movimientos diagonales
-            } else {
-                nuevoCoste += 5;  // Coste de 5 para movimientos ortogonales
+        closedList.push_back(current);
+        openList.erase(openList.begin() + currentIndex);
+
+        // Define directions and their respective costs
+        std::vector<std::pair<std::pair<int, int>, int>> directions = {
+            {{-1, 0}, 5}, {{1, 0}, 5}, {{0, -1}, 5}, {{0, 1}, 5}, // Lateral and vertical
+            {{-1, -1}, 7}, {{-1, 1}, 7}, {{1, -1}, 7}, {{1, 1}, 7} // Diagonal
+        };
+
+        for (const auto& dir : directions) {
+            int newX = current.getX() + dir.first.first;
+            int newY = current.getY() + dir.first.second;
+            int moveCost = dir.second;
+
+            if (newX < 0 || newY < 0 || newX >= rows_ || newY >= cols_ || maze_[newX][newY] == 1) {
+                continue;
             }
 
-            // Si el nuevo coste es menor que el coste registrado para el vecino, actualizar
-            if (nuevoCoste < coste[nx][ny]) {
-                coste[nx][ny] = nuevoCoste; // Actualizar coste
-                frontera.push(Nodo(nx, ny, nuevoCoste, heuristica(nx, ny, objetivo.first, objetivo.second), new Nodo(actual)));
-                
-                // Agregar nodo generado
-                nodosGenerados.push_back({nx, ny});
+            Node neighbor(newX, newY);
+            neighbor.setParent({current.getX(), current.getY()});
+            neighbor.setCost(current.getCost() + moveCost);
+            neighbor.calculateHeuristic(goal.getX(), goal.getY(), newX, newY);
+            // neighbor.euclideanDistance(goal.getX(), goal.getY(), newX, newY);
+
+            if (std::find_if(closedList.begin(), closedList.end(), [&neighbor](const Node& n) {
+                return n.getX() == neighbor.getX() && n.getY() == neighbor.getY();
+            }) != closedList.end()) {
+                continue;
             }
-            nodosGenerados_++;  // Incrementar el contador de nodos generados
-        }
 
-        // Escribir en el archivo la lista de nodos generados en esta iteración
-        nombreArchivo << "Nodos generados: ";
-        for (const auto& nodo : nodosGenerados) {
-            nombreArchivo << "(" << nodo.first << ", " << nodo.second << "), ";
-        }
-        nombreArchivo << std::endl;
-        iteracion++;
-    }
+            auto it = std::find_if(openList.begin(), openList.end(), [&neighbor](const Node& n) {
+                return n.getX() == neighbor.getX() && n.getY() == neighbor.getY();
+            });
 
-    // Escribir la lista final de nodos generados
-    nombreArchivo << "Nodos generados: ";
-    for (const auto& nodo : nodosGenerados) {
-        nombreArchivo << "(" << nodo.first << ", " << nodo.second << "), ";
-    }
-
-    // Si se ha encontrado un camino, procesarlo
-    if (nodoFinal != nullptr) {
-        nombreArchivo << "\nCamino encontrado!" << std::endl;
-
-        // Imprimir el coste total del camino encontrado
-        float costeTotal = coste[nodoFinal->x][nodoFinal->y];
-        nombreArchivo << "Coste total del camino: " << costeTotal << std::endl;
-        costeTotal_ = costeTotal;
-
-        // Marcar el camino en el laberinto
-        Nodo* nodoActual2 = nodoFinal;
-        while (nodoActual2 != nullptr) {
-            this->matriz_[nodoActual2->x][nodoActual2->y] = 2;  // Marcar el camino con 2
-            nodoActual2 = nodoActual2->padre;  // Ir al nodo padre
-        }
-
-        // Escribir el laberinto con el camino en el archivo
-        for (int i = 0; i < anchura_; i++) {
-            for (int j = 0; j < altura_; j++) {
-                if (matriz_[i][j] == 1) {
-                    nombreArchivo << "🧱";  // Pared
-                } else if (matriz_[i][j] == 0) {
-                    nombreArchivo << "⬜";  // Camino
-                } else if (matriz_[i][j] == 3) {
-                    nombreArchivo << "🚪";  // Entrada
-                } else if (matriz_[i][j] == 4) {
-                    nombreArchivo << "🏁";  // Salida
-                } else if (matriz_[i][j] == 2) {
-                    nombreArchivo << "🚶";  // Camino recorrido
-                } 
+            if (it == openList.end() || neighbor.getCost() < it->getCost()) {
+                openList.push_back(neighbor);
+                generatedNodes.push_back(neighbor);
             }
-            nombreArchivo << endl;  // Nueva línea al final de cada fila
         }
-        nombreArchivo << endl;  // Nueva línea al final de cada fila
-        nombreArchivo << "---------------------------------\n";
-        nombreArchivo << "Camino: ";
-        Nodo* camino = nodoFinal;
-        // Mostrar el camino recorrido en el archivo
-        while (camino) {
-            nombreArchivo << "(" << camino->x << ", " << camino->y << ")";
-            if (camino->padre) nombreArchivo << " -> ";
-            camino = camino->padre;
+
+        // Mostrar nodos generados
+        out << "Nodos generados: ";
+        for (const auto& node : generatedNodes) {
+            out << "(" << node.getX() + 1 << "," << node.getY() + 1 << ") ";
         }
-    } else {
-        nombreArchivo << "\nNo se encontró camino." << std::endl; // Mensaje si no se encuentra camino
+        out << "\n";
+
+        // Mostrar nodos inspeccionados
+        out << "Nodos inspeccionados: ";
+        for (const auto& node : closedList) {
+            out << "(" << node.getX() + 1 << "," << node.getY() + 1<< ") ";
+        }
+        out << "\n" << std::endl;
+
+        // Calcular costo en iteración
+        accumulatedCost = current.getCost();
+
+        logger.logIteration(current, generatedNodes, closedList, accumulatedCost);
     }
 }
 

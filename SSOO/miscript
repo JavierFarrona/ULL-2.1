@@ -1,0 +1,132 @@
+#!/bin/bash
+
+#sysinfo - Un script para mostrar información del sistema
+
+# Función para mostrar la ayuda
+show_help() {
+    echo "Uso: $0 [-h] [-z] [-u user1 ...] [-d dir] [-t] [-e] [-sm] [-sg] [-r]"
+    echo "-h         Muestra esta ayuda"
+    echo "-z         Incluye procesos con sesión 0"
+    echo "-u user    Filtra por uno o más usuarios"
+    echo "-d dir     Filtra por procesos que tienen archivos abiertos en un directorio"
+    echo "-t         Filtra por procesos que tienen una terminal controladora"
+    echo "-e         Muestra los detalles de los procesos en formato extendido"
+    echo "-sm        Ordena por memoria consumida"
+    echo "-sg        Ordena por número de grupos de procesos"
+    echo "-r         Invierte el orden"
+    exit 0
+}
+
+# Función para manejar errores
+error_exit() {
+    echo "Error: $1" >&2
+    exit 1
+}
+
+# Variables para almacenar opciones
+users=()
+include_session_zero=false
+directory=""
+has_tty=false
+extended_info=false
+sort_mem=false
+sort_groups=false
+reverse_sort=false
+
+# Procesamiento de opciones
+while getopts ":hzu:d:tesmgr" opt; do
+    case $opt in
+        h) show_help ;;
+        z) include_session_zero=true ;;
+        u) users+=("$OPTARG") ;;
+        d) directory="$OPTARG" ;;
+        t) has_tty=true ;;
+        e) extended_info=true ;;
+        sm) sort_mem=true ;;
+        sg) sort_groups=true ;;
+        r) reverse_sort=true ;;
+        \?) error_exit "Opción no soportada: -$OPTARG" ;;
+        :) error_exit "Opción -$OPTARG requiere un argumento." ;;
+    esac
+done
+
+# Validación de opciones conflictivas
+if [[ "$sort_mem" == true && "$sort_groups" == true ]]; then
+    error_exit "Las opciones -sm y -sg no se pueden usar juntas."
+fi
+
+# Función para recopilar información de procesos con 'ps'
+get_processes() {
+    local cmd="ps -eo sid,pgid,pid,user,tty,%mem,cmd"
+    
+    # Incluye/excluye procesos con sesión 0
+    if [ "$include_session_zero" = false ]; then
+        cmd+=" | awk '\$1 != 0'"
+    fi
+    
+    # Filtrar por usuarios
+    if [ ${#users[@]} -gt 0 ]; then
+        user_filter=$(printf "| grep -E '(%s)'" "$(IFS="|"; echo "${users[*]}")")
+        cmd+=" | grep -E '$user_filter'"
+    fi
+
+    # Filtrar por terminal controladora
+    if [ "$has_tty" = true ]; then
+        cmd+=" | grep -v '?'"
+    fi
+
+    # Ejecutar el comando
+    eval "$cmd"
+}
+
+# Función para mostrar procesos en formato extendido
+show_extended_info() {
+    echo "Sesión | Grupos | %Mem | Proceso líder (PID) | Usuario | Terminal | Comando"
+    get_processes | awk '{ print $1 " | " $2 " | " $6 " | " $3 " | " $4 " | " $5 " | " $7 }'
+}
+
+# Mostrar ayuda si no se han especificado opciones
+if [ "$OPTIND" -eq 1 ]; then
+    get_processes
+fi
+
+# Filtrado por directorio (-d), usando lsof para obtener los procesos que tienen archivos abiertos en el directorio
+if [ -n "$directory" ]; then
+    pids=$(lsof +d "$directory" | awk '{print $2}' | sort -u)
+    if [ -n "$pids" ]; then
+        echo "Procesos con archivos abiertos en $directory:"
+        ps -p "$pids" -o pid,user,%mem,cmd
+    else
+        echo "No se encontraron procesos con archivos abiertos en $directory"
+    fi
+fi
+
+# Si la opción -e está activada, mostrar información extendida de procesos
+if [ "$extended_info" = true ]; then
+    show_extended_info
+    exit 0
+fi
+
+# Filtrar, ordenar, y mostrar procesos si se seleccionaron otras opciones
+process_data=$(get_processes)
+
+# Si se requiere ordenamiento por memoria consumida (-sm)
+if [ "$sort_mem" = true ]; then
+    process_data=$(echo "$process_data" | sort -k6 -g)
+fi
+
+# Si se requiere ordenamiento por número de grupos de procesos (-sg)
+if [ "$sort_groups" = true ]; then
+    process_data=$(echo "$process_data" | sort -k2 -g)
+fi
+
+# Si se requiere invertir el orden (-r)
+if [ "$reverse_sort" = true ]; then
+    process_data=$(echo "$process_data" | tac)
+fi
+
+# Mostrar la información de los procesos seleccionados
+echo "$process_data"
+
+# Terminar el script
+exit 0

@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
     std::ofstream output(salida);
     is_open(input, output);
 
-    Grafo maze(input);
+    Maze maze(input);
     Node start = maze.getStart();
     Node goal = maze.getGoal();
 
