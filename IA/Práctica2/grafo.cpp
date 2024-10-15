@@ -303,7 +303,6 @@ void Grafo::aStar(Coordenadas inicio, Coordenadas objetivo, const std::string& N
         // Mostrar el camino recorrido en el archivo
         while (camino) {
             nombreArchivo << "(" << camino->x << ", " << camino->y << ")";
-            nodos_camnino.push_back(camino);
             if (camino->padre) nombreArchivo << " -> ";
             camino = camino->padre;
         }

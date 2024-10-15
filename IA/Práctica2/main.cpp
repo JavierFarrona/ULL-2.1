@@ -35,6 +35,7 @@ int main() {
                 grafo.aStar(grafo.get_inicio(), grafo.get_fin(), "result.txt");  // Llamada a aStar
                 grafo.imprimir_laberinto();  // Llamada a imprimir_laberinto
                 grafo.loadGrafo(nombre_fichero);  // Llamada a loadGrafos
+                std::cout << grafo.get_nodosGenerados() << " " << grafo.get_nodosInspeccionados() << std::endl;
                 std::cout << "Presione Enter para continuar... (se avisa que se va a reiniciar el laberinto al laberinto original)" << std::endl;
                 break;
             case 4:
@@ -42,6 +43,7 @@ int main() {
                 grafo.aStarModificado(grafo.get_inicio(), grafo.get_fin(), "resultModi.txt");  // Llamada a aStarModificado
                 grafo.imprimir_laberinto();  // Llamada a imprimir_laberinto
                 grafo.loadGrafo(nombre_fichero);  // Llamada a loadGrafos
+                std::cout << grafo.get_nodosGenerados() << " " << grafo.get_nodosInspeccionados() << std::endl;
                 std::cout << "Presione Enter para continuar... (se avisa que se va a reiniciar el laberinto al laberinto original)" << std::endl;
                 break;
             default:

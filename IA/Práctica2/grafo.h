@@ -73,6 +73,8 @@ class Grafo {
     int get_altura() const { return altura_; }
     Coordenadas get_inicio() const { return inicio_; }
     Coordenadas get_fin() const { return fin_; }
+    int get_nodosGenerados() const { return nodosGenerados_; }
+    int get_nodosInspeccionados() const { return nodosInspeccionados_; }
 
     void CambiarInicio();
     void CambiarFin();
